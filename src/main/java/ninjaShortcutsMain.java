@@ -1,15 +1,10 @@
-import model.Adress;
-import model.House;
+import model.Home;
 
 public class ninjaShortcutsMain {
 
     public static void main(String[] args) {
+        Home home = new Home("1.8", "Saint whatever.com");
 
-        Adress addr = new Adress("StreetName", "10");
-
-        House house = new House("1.4", addr);
-
-        System.out.println(house);
-
+        System.out.println(home);
     }
 }
