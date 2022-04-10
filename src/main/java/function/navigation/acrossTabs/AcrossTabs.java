@@ -2,9 +2,9 @@ package function.navigation.acrossTabs;
 
 import Model.Key;
 import Model.Shortcut;
-import Model.ShortcutApply;
+import Model.ShortcutEntity;
 
-public class AcrossTabs extends ShortcutApply {
+public class AcrossTabs extends ShortcutEntity {
 
     private DumbClass0 dumbClass0;
     private DumbClass1 dumbClass1;

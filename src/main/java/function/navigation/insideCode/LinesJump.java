@@ -2,9 +2,9 @@ package function.navigation.insideCode;
 
 import Model.Key;
 import Model.Shortcut;
-import Model.ShortcutApply;
+import Model.ShortcutEntity;
 
-public class LinesJump extends ShortcutApply {
+public class LinesJump extends ShortcutEntity {
 
     public LinesJump() {
         super("Jump inside lines", new Shortcut(Key.INIT_OR_END) );

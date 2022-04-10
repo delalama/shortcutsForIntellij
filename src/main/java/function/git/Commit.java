@@ -2,13 +2,13 @@ package function.git;
 
 import Model.Key;
 import Model.Shortcut;
-import Model.ShortcutApply;
+import Model.ShortcutEntity;
 
 import static Model.Key.CTRL;
 
-public class commit extends ShortcutApply {
+public class Commit extends ShortcutEntity {
 
-    public commit() {
+    public Commit() {
         super("Commit your changed files", new Shortcut(CTRL, Key.K));
     }
 }
