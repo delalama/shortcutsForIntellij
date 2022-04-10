@@ -1,0 +1,1 @@
+This is the project to share some shortcuts knowledge
