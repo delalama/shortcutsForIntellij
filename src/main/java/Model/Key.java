@@ -68,6 +68,7 @@ public enum Key{
     ENGLISH_QUOTE("'"),
     LEFT_OR_RIGHT_ARROWS("(← || →)"),
     UP_OR_DOWN_ARROWS("(↑ || ↓)"),
+    ARROW("(↑ || ↓ || ← || →)"),
     INIT_OR_END("(INIT || END)"),
     MOUSE_SELECT ("MOUSE SELECT")
     ;

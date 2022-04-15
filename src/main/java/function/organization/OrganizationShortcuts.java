@@ -1,4 +1,4 @@
-package function.selection;
+package function.organization;
 
 import Model.ShortcutEntity;
 import function.Edition.Carets;
@@ -6,15 +6,17 @@ import function.Edition.UpperCase;
 
 import java.lang.reflect.Field;
 
-public class SelecttionShortcuts {
-    MouseSelection mouseSelection = new MouseSelection();
+public class OrganizationShortcuts {
+    CleanScreen cleanScreen = new CleanScreen();
+    ResizeTab resizeTab = new ResizeTab();
+    FullTab fullTab = new FullTab();
 
-    public SelecttionShortcuts() {
+    public OrganizationShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = SelecttionShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = OrganizationShortcuts.class.getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());
