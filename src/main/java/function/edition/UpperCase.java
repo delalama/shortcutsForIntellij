@@ -1,4 +1,4 @@
-package function.Edition;
+package function.edition;
 
 import Model.Shortcut;
 import Model.ShortcutEntity;

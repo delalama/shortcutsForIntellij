@@ -1,8 +1,6 @@
 package function.organization;
 
 import Model.ShortcutEntity;
-import function.Edition.Carets;
-import function.Edition.UpperCase;
 
 import java.lang.reflect.Field;
 

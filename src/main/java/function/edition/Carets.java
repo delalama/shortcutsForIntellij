@@ -1,11 +1,9 @@
-package function.Edition;
+package function.edition;
 
 import Model.Shortcut;
 import Model.ShortcutEntity;
 
 import static Model.Key.CTRL;
-import static Model.Key.SHIFT;
-import static Model.Key.U;
 import static Model.Key.UP_OR_DOWN_ARROWS;
 
 public class Carets extends ShortcutEntity {
