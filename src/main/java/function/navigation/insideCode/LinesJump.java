@@ -5,7 +5,6 @@ import Model.Shortcut;
 import Model.ShortcutEntity;
 
 public class LinesJump extends ShortcutEntity {
-
     public LinesJump() {
         super("Jump inside lines", new Shortcut(Key.INIT_OR_END) );
     }

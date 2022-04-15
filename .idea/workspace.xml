@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="PrintResume()" />
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="PrintResume()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass/GoToImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass/impl/whateverInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoToDeclarationOrUsages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/MethodsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoTopOrBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoTopOrBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/insideCode/LinesJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideCode/LinesJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/insideClass/GoTopOrBottom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/insideClass/GoTopOrBottom.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/navigation/lastPlaces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,22 +79,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="function.navigation.acrossClass.impl" />
+      <recent name="function.navigation.acrossClass.interface" />
       <recent name="function.navigation" />
       <recent name="navigation" />
       <recent name="Model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\acrossClass" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\lastPlaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="function.navigation.insideClass" />
+      <recent name="function.navigation.acrossClass" />
       <recent name="function.global" />
       <recent name="function.git" />
       <recent name="function.navigation.lastPlaces" />
-      <recent name="navigation.insideClass" />
-      <recent name="navigation.betweenClasses" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,6 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649583099430</updated>
       <workItem from="1649583102887" duration="17124000" />
+      <workItem from="1649659109880" duration="111000" />
+      <workItem from="1649858261469" duration="377000" />
+      <workItem from="1649964483924" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -183,7 +202,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ShortcutsMain.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>

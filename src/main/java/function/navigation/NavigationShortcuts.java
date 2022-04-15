@@ -1,8 +1,11 @@
 package function.navigation;
 
 import Model.ShortcutEntity;
+import function.navigation.acrossClass.GoToImplementation;
 import function.navigation.acrossTabs.AcrossTabs;
+import function.navigation.insideClass.GoToDeclarationOrUsages;
 import function.navigation.insideClass.GoTopOrBottom;
+import function.navigation.insideClass.MethodsInfo;
 import function.navigation.insideClass.MethodsJump;
 import function.navigation.insideCode.LinesJump;
 import function.navigation.lastPlaces.LastPlaces;
@@ -17,6 +20,9 @@ public class NavigationShortcuts {
     GoTopOrBottom goTopOrBottom = new GoTopOrBottom();
     LinesJump linesJump = new LinesJump();
     LastPlaces lastPlaces = new LastPlaces();
+    GoToDeclarationOrUsages goToDeclaration = new GoToDeclarationOrUsages();
+    GoToImplementation goToImplementation = new GoToImplementation();
+    MethodsInfo methodsInfo = new MethodsInfo();
 
     public NavigationShortcuts() {
         printResume();

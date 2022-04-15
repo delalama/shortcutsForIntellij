@@ -12,24 +12,4 @@ public class GoTopOrBottom extends ShortcutEntity {
         super("Go top or bottom", new Shortcut(CTRL , INIT_OR_END));
     }
 
-    public String method0() {
-        return null;
-    }
-
-    public String method1() {
-        return null;
-    }
-
-    public String method2() {
-        return null;
-    }
-
-    public String method3() {
-        return null;
-    }
-
-    public String method4() {
-        return null;
-    }
-
 }
