@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="PrintResume()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass/GoToImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass/impl/whateverInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoToDeclarationOrUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/MethodsInfo.java" afterDir="false" />
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="added nav sc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/Edition/Carets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/Edition/EditionShortcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/Edition/UpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/documentation/Diagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/documentation/DocumentationShortcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/documentation/Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/global/OpenTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/selection/MouseSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/selection/SelecttionShortcuts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/global/ActionsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/global/ActionsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/global/GlobalShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/global/GlobalShortcuts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoTopOrBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/GoTopOrBottom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/insideCode/LinesJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/insideCode/LinesJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/insideClass/MethodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/documentation/MethodsInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/insideClass/GoTopOrBottom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/insideClass/GoTopOrBottom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/insideCode/LinesJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/insideCode/LinesJump.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +75,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/navigation/acrossClass" />
+    <property name="introduce.parameter.lambda" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,25 +89,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model" />
       <recent name="function.navigation.acrossClass.impl" />
       <recent name="function.navigation.acrossClass.interface" />
       <recent name="function.navigation" />
       <recent name="navigation" />
-      <recent name="Model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\personal\dev\java\shortcuts\src\main\java\function" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\acrossClass" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\lastPlaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="function.documentation" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="function.navigation.insideClass" />
-      <recent name="function.navigation.acrossClass" />
+      <recent name="function.selection" />
+      <recent name="function.Edition" />
       <recent name="function.global" />
-      <recent name="function.git" />
-      <recent name="function.navigation.lastPlaces" />
+      <recent name="function.documentation" />
+      <recent name="function.navigation.insideClass" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,7 +139,8 @@
       <workItem from="1649583102887" duration="17124000" />
       <workItem from="1649659109880" duration="111000" />
       <workItem from="1649858261469" duration="377000" />
-      <workItem from="1649964483924" duration="2333000" />
+      <workItem from="1649964483924" duration="3988000" />
+      <workItem from="1650013384936" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -155,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649600240542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added nav sc">
+      <created>1650012109601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650012109601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +212,8 @@
     <MESSAGE value="Git shortcuts changes" />
     <MESSAGE value="PrintResume()" />
     <MESSAGE value="Resume()" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrintResume()" />
+    <MESSAGE value="added nav sc" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nav sc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,7 +225,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ShortcutsMain.java</url>
-          <line>15</line>
+          <line>20</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>

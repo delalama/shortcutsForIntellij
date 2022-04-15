@@ -1,21 +1,20 @@
-package function.global;
+package function.documentation;
 
 import Model.ShortcutEntity;
-import function.navigation.NavigationShortcuts;
-
 import java.lang.reflect.Field;
 
-public class GlobalShortcuts {
-    ActionsMenu actionsMenu = new ActionsMenu();
-    Switcher switcher = new Switcher();
-    OpenTabs openTabs = new OpenTabs();
+public class DocumentationShortcuts {
 
-    public GlobalShortcuts() {
+    MethodsInfo methodsInfo = new MethodsInfo();
+    Diagram diagram = new Diagram();
+    Parameters parameters = new Parameters();
+
+    public DocumentationShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = GlobalShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = DocumentationShortcuts.class.getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

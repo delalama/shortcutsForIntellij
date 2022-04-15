@@ -1,4 +1,4 @@
-package function.navigation.insideClass;
+package function.documentation;
 
 import Model.Shortcut;
 import Model.ShortcutEntity;
@@ -10,7 +10,7 @@ import static Model.Key.Q;
 import static Model.Key.SHIFT;
 
 public class MethodsInfo extends ShortcutEntity {
-    private String example = "Go to method1 and usage and get method1 info";
+    private String example = "Go to method1 usage and get method1 info";
 
     public MethodsInfo() {
         super("Methods info", new Shortcut(CTRL , Q));

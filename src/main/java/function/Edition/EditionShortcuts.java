@@ -1,21 +1,19 @@
-package function.global;
+package function.Edition;
 
 import Model.ShortcutEntity;
-import function.navigation.NavigationShortcuts;
 
 import java.lang.reflect.Field;
 
-public class GlobalShortcuts {
-    ActionsMenu actionsMenu = new ActionsMenu();
-    Switcher switcher = new Switcher();
-    OpenTabs openTabs = new OpenTabs();
+public class EditionShortcuts {
+    UpperCase upperCase = new UpperCase();
+    Carets carets = new Carets();
 
-    public GlobalShortcuts() {
+    public EditionShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = GlobalShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = EditionShortcuts.class.getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());
