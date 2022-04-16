@@ -1,11 +1,9 @@
-This is the project to share some shortcuts knowledge
+This is the project to share some intellij shortcuts.
 
 
-Presentation
-
-Expose time per function
-Breaks - Questions per each function
-
+Presentation about the idea
+Presentation about this project
+Meet Breaks - Questions per each function family
 
 
 Plugin

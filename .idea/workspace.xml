@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Some refactor">
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Readme">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/git/GitShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/git/GitShortcuts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/global/GlobalShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/global/GlobalShortcuts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <workItem from="1650013384936" duration="6181000" />
       <workItem from="1650019626574" duration="10000" />
       <workItem from="1650078494176" duration="2744000" />
-      <workItem from="1650081294361" duration="5215000" />
+      <workItem from="1650081294361" duration="5685000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650086272736</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Readme">
+      <created>1650086585552</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650086585552</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +276,8 @@
     <MESSAGE value="First 30 sc" />
     <MESSAGE value="Commented lines" />
     <MESSAGE value="Some refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some refactor" />
+    <MESSAGE value="Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
