@@ -12,13 +12,14 @@ public class SearchShortcuts {
     GoogleIt googleIt = new GoogleIt();
     StackOverflow stackOverflow = new StackOverflow();
     Translate translate = new Translate();
+    SearchAll insideClass = new SearchAll();
 
     public SearchShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = SelectionShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = SearchShortcuts.class.getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());
