@@ -10,3 +10,7 @@ Breaks - Questions per each function
 
 Plugin
 Presentation assistant
+
+
+GIT URL:
+https://github.com/delalama/shortcutsForIntellij
