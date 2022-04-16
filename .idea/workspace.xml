@@ -109,6 +109,11 @@
       <recent name="function.global" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="terminal" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="ShortcutsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShortcutsMain" />

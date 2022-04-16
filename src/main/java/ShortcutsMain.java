@@ -11,12 +11,12 @@ import function.selection.SelectionShortcuts;
 public class ShortcutsMain {
 
     static OrganizationShortcuts organizationShortcuts = new OrganizationShortcuts();
-    static SearchShortcuts searchShortcuts = new SearchShortcuts();
-    static GlobalShortcuts globalShortcuts = new GlobalShortcuts();
-    static SelectionShortcuts selecttionShortcuts = new SelectionShortcuts();
-    static EditionShortcuts editionShortcuts = new EditionShortcuts();
-    static NavigationShortcuts navigationShortcuts = new NavigationShortcuts();
-    static GitShortcuts gitShortcuts = new GitShortcuts();
+//    static SearchShortcuts searchShortcuts = new SearchShortcuts();
+//    static GlobalShortcuts globalShortcuts = new GlobalShortcuts();
+//    static SelectionShortcuts selecttionShortcuts = new SelectionShortcuts();
+//    static EditionShortcuts editionShortcuts = new EditionShortcuts();
+//    static NavigationShortcuts navigationShortcuts = new NavigationShortcuts();
+//    static GitShortcuts gitShortcuts = new GitShortcuts();
     static DocumentationShortcuts documentationShortcuts = new DocumentationShortcuts();
 
     public static void main(String[] args) {
