@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="pre selection Function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/organization/CleanScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/organization/FullTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/organization/OrganizationShortcuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/organization/ResizeTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/selection/ExtendSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/selection/ShrinkSelection.java" afterDir="false" />
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Refac">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/organization/PinTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/SearchShortcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/helper/GoogleIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/helper/StackOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/helper/Translate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ShortcutEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ShortcutEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/selection/SelecttionShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/selection/SelectionShortcuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Key.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/global/ActionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/global/ActionsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/global/GlobalShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/global/GlobalShortcuts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/organization/OrganizationShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/organization/OrganizationShortcuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShortcutsMain.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -76,18 +77,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HSQLDB" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="function.search" />
+      <recent name="function.organization" />
       <recent name="function.selection" />
       <recent name="Model" />
       <recent name="function.navigation.acrossClass.impl" />
-      <recent name="function.navigation.acrossClass.interface" />
-      <recent name="function.navigation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\organization" />
@@ -102,11 +103,11 @@
       <recent name="function.documentation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="function.search" />
       <recent name="function.organization" />
       <recent name="function.Edition" />
       <recent name="function.selection" />
       <recent name="function.global" />
-      <recent name="function.documentation" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,7 +136,10 @@
       <workItem from="1649659109880" duration="111000" />
       <workItem from="1649858261469" duration="377000" />
       <workItem from="1649964483924" duration="3988000" />
-      <workItem from="1650013384936" duration="6037000" />
+      <workItem from="1650013384936" duration="6181000" />
+      <workItem from="1650019626574" duration="10000" />
+      <workItem from="1650078494176" duration="2744000" />
+      <workItem from="1650081294361" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -179,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650017271297</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Selection and organization done">
+      <created>1650019529539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650019529539</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refac">
+      <created>1650019577142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650019577142</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +234,9 @@
     <MESSAGE value="Resume()" />
     <MESSAGE value="added nav sc" />
     <MESSAGE value="pre selection Function" />
-    <option name="LAST_COMMIT_MESSAGE" value="pre selection Function" />
+    <MESSAGE value="Selection and organization done" />
+    <MESSAGE value="Refac" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -228,7 +248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ShortcutsMain.java</url>
-          <line>20</line>
+          <line>24</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>

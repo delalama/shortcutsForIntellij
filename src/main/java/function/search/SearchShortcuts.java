@@ -1,21 +1,24 @@
-package function.organization;
+package function.search;
 
 import Model.ShortcutEntity;
-
+import function.search.helper.GoogleIt;
+import function.search.helper.StackOverflow;
+import function.search.helper.Translate;
+import function.selection.SelectionShortcuts;
 import java.lang.reflect.Field;
 
-public class OrganizationShortcuts {
-    CleanScreen cleanScreen = new CleanScreen();
-    ResizeTab resizeTab = new ResizeTab();
-    FullTab fullTab = new FullTab();
-    PinTab pintab = new PinTab();
+public class SearchShortcuts {
 
-    public OrganizationShortcuts() {
+    GoogleIt googleIt = new GoogleIt();
+    StackOverflow stackOverflow = new StackOverflow();
+    Translate translate = new Translate();
+
+    public SearchShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = OrganizationShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = SelectionShortcuts.class.getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

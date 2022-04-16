@@ -70,7 +70,12 @@ public enum Key{
     UP_OR_DOWN_ARROWS("(↑ || ↓)"),
     ARROW("(↑ || ↓ || ← || →)"),
     INIT_OR_END("(INIT || END)"),
-    MOUSE_SELECT ("MOUSE SELECT")
+    MOUSE_SELECT ("MOUSE SELECT"),
+    ACTIONS_MENU ("OPEN ACTIONS MENU"),
+    PIN ("WRITE 'PIN'"),
+    GOOGLE("WRITE 'GOOGLE'"),
+    STACK_OVERFLOW("WRITE 'STACKOVERFLOW'"),
+    TRANSLATE("WRITE 'TRANSLATE'"),
     ;
 
     final String value;

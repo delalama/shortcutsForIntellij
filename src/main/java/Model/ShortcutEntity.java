@@ -15,6 +15,4 @@ public abstract class ShortcutEntity {
     public void printResume() {
         System.out.println("  " + explanation + " -> " + getShortcut().getShortCut());
     }
-
-
 }
