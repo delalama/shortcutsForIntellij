@@ -4,7 +4,6 @@ import Model.ShortcutEntity;
 import function.search.helper.GoogleIt;
 import function.search.helper.StackOverflow;
 import function.search.helper.Translate;
-import function.selection.SelectionShortcuts;
 import java.lang.reflect.Field;
 
 public class SearchShortcuts {
@@ -13,13 +12,14 @@ public class SearchShortcuts {
     StackOverflow stackOverflow = new StackOverflow();
     Translate translate = new Translate();
     SearchAll insideClass = new SearchAll();
+    GoToLine goToLine = new GoToLine();
 
     public SearchShortcuts() {
         printResume();
     }
 
     public void printResume() {
-        Field[] shortcutEntities = SearchShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = this.getClass().getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

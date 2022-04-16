@@ -14,7 +14,7 @@ public class GitShortcuts {
     }
 
     public void printResume() {
-        Field[] shortcutEntities = GitShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = this.getClass().getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

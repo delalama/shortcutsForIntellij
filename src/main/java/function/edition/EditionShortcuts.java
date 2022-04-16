@@ -13,7 +13,7 @@ public class EditionShortcuts {
     }
 
     public void printResume() {
-        Field[] shortcutEntities = EditionShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = this.getClass().getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

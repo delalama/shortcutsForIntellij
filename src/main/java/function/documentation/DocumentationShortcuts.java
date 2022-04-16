@@ -14,7 +14,7 @@ public class DocumentationShortcuts {
     }
 
     public void printResume() {
-        Field[] shortcutEntities = DocumentationShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = this.getClass().getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());

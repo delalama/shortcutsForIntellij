@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Search functions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/SearchAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/edition/Carets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/edition/Carets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/edition/UpperCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/edition/UpperCase.java" afterDir="false" />
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Commented lines">
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/search/GoToLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/function/search/SearchShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/search/SearchShortcuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/search/helper/GoogleIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/search/helper/GoogleIt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +29,11 @@
       <list>
         <option value="dll" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="example_branch" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,7 +67,6 @@
     <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="introduce.parameter.lambda" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/organization" />
@@ -120,6 +119,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ShortcutsMain" />
+        <item itemvalue="Application.ShortcutsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,7 @@
       <workItem from="1650013384936" duration="6181000" />
       <workItem from="1650019626574" duration="10000" />
       <workItem from="1650078494176" duration="2744000" />
-      <workItem from="1650081294361" duration="4142000" />
+      <workItem from="1650081294361" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -203,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650083669252</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First 30 sc">
+      <created>1650085595193</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650085595193</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commented lines">
+      <created>1650085670067</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650085670067</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/example_branch" />
                       </list>
                     </value>
                   </entry>
@@ -233,6 +247,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Adding folders structure" />
     <MESSAGE value="Readme.md" />
     <MESSAGE value="Git shortcuts changes" />
@@ -243,7 +259,9 @@
     <MESSAGE value="Selection and organization done" />
     <MESSAGE value="Refac" />
     <MESSAGE value="Search functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search functions" />
+    <MESSAGE value="First 30 sc" />
+    <MESSAGE value="Commented lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented lines" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

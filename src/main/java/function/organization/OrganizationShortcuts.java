@@ -15,7 +15,7 @@ public class OrganizationShortcuts {
     }
 
     public void printResume() {
-        Field[] shortcutEntities = OrganizationShortcuts.class.getDeclaredFields();
+        Field[] shortcutEntities = this.getClass().getDeclaredFields();
 
         System.out.println("---------------");
         System.out.println(this.getClass().getSimpleName());
