@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Readme">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -138,7 +137,7 @@
       <workItem from="1650013384936" duration="6181000" />
       <workItem from="1650019626574" duration="10000" />
       <workItem from="1650078494176" duration="2744000" />
-      <workItem from="1650081294361" duration="5685000" />
+      <workItem from="1650081294361" duration="6615000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650086585552</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Readme">
+      <created>1650087033325</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650087033325</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
