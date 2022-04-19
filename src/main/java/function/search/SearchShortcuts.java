@@ -13,6 +13,8 @@ public class SearchShortcuts {
     Translate translate = new Translate();
     SearchAll insideClass = new SearchAll();
     GoToLine goToLine = new GoToLine();
+    ClassChanges classChanges = new ClassChanges();
+
 
     public SearchShortcuts() {
         printResume();
