@@ -76,6 +76,7 @@ public enum Key{
     GOOGLE("WRITE 'GOOGLE'"),
     STACK_OVERFLOW("WRITE 'STACKOVERFLOW'"),
     TRANSLATE("WRITE 'TRANSLATE'"),
+    NUMBER_1_TO_9( "number(1-9)"),
     ;
 
     final String value;

@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Readme">
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="add Go to changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/AddBookmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/BookmarksMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/documentation/MethodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/documentation/MethodsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +58,11 @@
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -68,13 +84,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="introduce.parameter.lambda" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/organization" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -88,6 +104,7 @@
       <recent name="function.navigation.acrossClass.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\bookmarks" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\organization" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function" />
       <recent name="C:\personal\dev\java\shortcuts\src\main\java\function\navigation\acrossClass" />
@@ -100,11 +117,11 @@
       <recent name="function.documentation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="function.navigation.bookmarks" />
+      <recent name="function.organization.bookmarks" />
       <recent name="function.search" />
       <recent name="function.organization" />
       <recent name="function.Edition" />
-      <recent name="function.selection" />
-      <recent name="function.global" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,6 +155,10 @@
       <workItem from="1650019626574" duration="10000" />
       <workItem from="1650078494176" duration="2744000" />
       <workItem from="1650081294361" duration="6615000" />
+      <workItem from="1650356359797" duration="266000" />
+      <workItem from="1650376716644" duration="660000" />
+      <workItem from="1650467013672" duration="292000" />
+      <workItem from="1650815645658" duration="4635000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -237,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650087033325</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Go to changes">
+      <created>1650356522906</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650356522906</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add Go to changes">
+      <created>1650356539072</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650356539072</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,23 +318,9 @@
     <MESSAGE value="Commented lines" />
     <MESSAGE value="Some refactor" />
     <MESSAGE value="Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Model/Tools.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ShortcutsMain.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Go to changes" />
+    <MESSAGE value="add Go to changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Go to changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

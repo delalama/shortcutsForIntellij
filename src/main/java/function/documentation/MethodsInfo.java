@@ -28,7 +28,6 @@ public class MethodsInfo extends ShortcutEntity {
         String string = method1();
         return null;
     }
-
     public String method1() {
         String thisIsALineCodeThatYoullFindOnExtendedDocumentationShortcut = "";
         return thisIsALineCodeThatYoullFindOnExtendedDocumentationShortcut;

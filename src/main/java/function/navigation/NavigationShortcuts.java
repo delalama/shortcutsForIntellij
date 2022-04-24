@@ -3,6 +3,8 @@ package function.navigation;
 import Model.ShortcutEntity;
 import function.navigation.acrossClass.GoToImplementation;
 import function.navigation.acrossTabs.AcrossTabs;
+import function.navigation.bookmarks.AddBookmark;
+import function.navigation.bookmarks.BookmarksMenu;
 import function.navigation.insideClass.GoToDeclarationOrUsages;
 import function.navigation.insideClass.GoTopOrBottom;
 import function.documentation.MethodsInfo;
@@ -15,14 +17,20 @@ import java.lang.reflect.Field;
 
 @AllArgsConstructor
 public class NavigationShortcuts {
-    AcrossTabs acrossTabs = new AcrossTabs();
-    MethodsJump methodsJump = new MethodsJump();
-    LastPlaces lastPlaces = new LastPlaces();
-    GoToDeclarationOrUsages goToDeclaration = new GoToDeclarationOrUsages();
     GoToImplementation goToImplementation = new GoToImplementation();
-    GoTopOrBottom goTopOrBottom = new GoTopOrBottom();
-    LinesJump linesJump = new LinesJump();
+    AcrossTabs acrossTabs = new AcrossTabs();
 
+    //    bookmarks
+    AddBookmark addBookmark = new AddBookmark();
+    BookmarksMenu bookmarksMenu = new BookmarksMenu();
+
+    //    inside class
+    GoToDeclarationOrUsages goToDeclaration = new GoToDeclarationOrUsages();
+    GoTopOrBottom goTopOrBottom = new GoTopOrBottom();
+    MethodsJump methodsJump = new MethodsJump();
+
+    LinesJump linesJump = new LinesJump();
+    LastPlaces lastPlaces = new LastPlaces();
 
     public NavigationShortcuts() {
         printResume();
