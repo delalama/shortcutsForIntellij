@@ -10,7 +10,7 @@ import function.selection.SelectionShortcuts;
 
 public class ShortcutsMain {
 
-    static OrganizationShortcuts organizationShortcuts = new OrganizationShortcuts();
+static OrganizationShortcuts organizationShortcuts = new OrganizationShortcuts();
 //    static GlobalShortcuts globalShortcuts = new GlobalShortcuts();
 //    static SearchShortcuts searchShortcuts = new SearchShortcuts();
 //    static SelectionShortcuts selecttionShortcuts = new SelectionShortcuts();
