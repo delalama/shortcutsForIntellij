@@ -9,8 +9,8 @@ import static Model.Key.STACK_OVERFLOW;
 
 public class StackOverflow extends ShortcutEntity {
 
-    private String example = "Install plugin 'Search with StackOverflow' and use it";
-    private String example1 = "Java regular expressions";
+    private String neededPlugin = "Install plugin 'Search with StackOverflow' and use it";
+    private String example1 = "Java regular expressions stackoverlow";
 
     public StackOverflow() {
         super("Search on stack overflow", new Shortcut(ACTIONS_MENU, STACK_OVERFLOW));

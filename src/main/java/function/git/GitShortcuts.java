@@ -8,6 +8,8 @@ import java.lang.reflect.Field;
 public class GitShortcuts {
     Commit commit = new Commit();
     Push commitAndPush = new Push();
+    RollBackClass rollBackClass = new RollBackClass();
+    NavigateThrowChanges navigateThrowChanges = new NavigateThrowChanges();
 
     public GitShortcuts() {
         printResume();
