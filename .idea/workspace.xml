@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="add Go to changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/AddBookmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/BookmarksMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/navigation/bookmarks/DumbService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Key.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShortcutsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/documentation/MethodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/documentation/MethodsInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/navigation/NavigationShortcuts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/function/navigation/NavigationShortcuts.class" afterDir="false" />
-    </list>
+    <list default="true" id="9604b373-488d-444c-8e8f-11bc7402c5b3" name="Changes" comment="Added bookmarks Shortcuts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +145,7 @@
       <workItem from="1650356359797" duration="266000" />
       <workItem from="1650376716644" duration="660000" />
       <workItem from="1650467013672" duration="292000" />
-      <workItem from="1650815645658" duration="4635000" />
+      <workItem from="1650815645658" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="Adding folders structure">
       <created>1649592427543</created>
@@ -272,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650356539072</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added bookmarks Shortcuts">
+      <created>1650820376014</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650820376014</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added bookmarks Shortcuts">
+      <created>1650820979459</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650820979459</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +290,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/example_branch" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -320,7 +321,8 @@
     <MESSAGE value="Readme" />
     <MESSAGE value="Go to changes" />
     <MESSAGE value="add Go to changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Go to changes" />
+    <MESSAGE value="Added bookmarks Shortcuts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added bookmarks Shortcuts" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
