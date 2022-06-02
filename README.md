@@ -6,21 +6,26 @@
 
 ___
 ## About
-    Why?
+    It is needed to increment my knowledge?
 
-    Prelude
-
-- Thanks to all asaitec guys and specially to Giuseppe.
-
-## Project structure
+    ...thanks to all asaitec guys and specially to Giuseppe.
+## Shortcuts groups to talk about
+- documentation
+- edition
+- git
+- global
+- navigation
+- organization
+- search
+- selection
 
 ## Presentation format
-
-- Questions between functions.
+- Group shortcuts presentation
+- Questions after each group presentation.
 
 ___
 
-## Ninja Plugins
+## Intellij Plugins suggestions
 
 | PLUGIN NAME     | DESC                                               |
 |-----------------|----------------------------------------------------|
@@ -33,6 +38,8 @@ ___
 https://github.com/delalama/shortcutsForIntellij
 
 ---
+
+
 # Personal before begin
 Active presentation assistant
 
